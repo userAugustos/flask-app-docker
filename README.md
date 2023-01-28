@@ -1,4 +1,5 @@
 
+# Docker
 ### Como era feito antes?
 
 - **Hardware**: o Hardware onde vamos executar aquele SO, que vai compartilhar hardware para nossas virtual machines
