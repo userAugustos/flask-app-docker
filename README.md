@@ -65,9 +65,9 @@ Então após aqueles passos para criar nossa imagem, podemos buildar a imagem e 
 	docker build <nome da imagem> <caminho para o dockerfile>
 
 E então rodar nossa imagem:
-	docker run -d -P <nome da imagem>
 	
-	flag -d vai fazer o docker rodar em background, sem ela, rodaria no nosso terminal, exibindo logs e dados do container.
-	flag -P vai mapear a porta do docker host para a porta que expomos no docker files
+	docker run -d -P <nome da imagem>
+- flag -d vai fazer o docker rodar em background, sem ela, rodaria no nosso terminal, exibindo logs e dados do container.
+- flag -P vai mapear a porta do docker host para a porta que expomos no docker files
 
 pra entender as opções do docker run, veja: [docker run](https://docs.docker.com/engine/reference/run/)
